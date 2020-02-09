@@ -11,9 +11,11 @@
         <div class="topnav">
             <div class="container">
                 <a class="active" href="index.html">Brett Landes</a>
-                <a class="rightAlign" href="index.html">About</a>
-                <a id="border" class="rightAlign" href="portfolio.html">Portfolio</a>
-                <a class="rightAlign" href="contact.html">Contact</a>
+                <div class="navContainer">
+                    <a class="rightAlign" href="index.html">About</a>
+                    <a id="border" class="rightAlign" href="portfolio.html">Portfolio</a>
+                    <a class="rightAlign" href="contact.html">Contact</a>
+                </div>
             </div>
           </div>
 
@@ -21,23 +23,26 @@
             <h1>Contact</h1>
 
             <form>
-                
+                <div class="formContainer">
                     <label for="name">Name</label>
-                    <input type="text" placeholder="John Smith" name="name" size="131.5">
+                    <input type="text" placeholder="John Smith" name="name">
 
                     <br>
 
                     <label for="email">Email</label>
-                    <input type="email" placeholder="example@gmail.com" name="email" size="131.5">
+                    <input type="email" placeholder="example@gmail.com" name="email">
 
                     <br>
 
                     <label for="textArea">Message</label>
-                    <textarea rows="10" cols="133"></textarea>
+                    <textarea></textarea>
+                
 
                     <br>
+                   
 
                     <input type="submit"> 
+                </div>
             </form>
         </div>
 
