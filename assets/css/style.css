@@ -26,6 +26,12 @@ body {
     
 }
 
+#profilePhoto {
+    width: 100%;
+    height: 420px;
+    margin-bottom: 20px;
+  }
+
 form {
     font-family: Arial, Helvetica, sans-serif;
     width: 960px;
@@ -160,6 +166,10 @@ input[type="submit"] {
 
 
 
+
+/*-----------------------------------------------start styling at 980px screen sizes-----------------------------------------------------------*/
+
+
 @media screen and (max-width: 980px) {
 
     .textAreaBackground {
@@ -258,7 +268,7 @@ input[type="submit"] {
 
 
 
-
+/*--------------------------------------------- Start styling at 768px screen sizes -------------------------------------------------- */
 
 @media screen and (max-width: 768px) {
 
@@ -352,6 +362,8 @@ input[type="submit"] {
 
     
 }
+
+/* ---------------------------------------------------start styling at 640px screen sizes--------------------------------------------------------- */
 
 
 @media screen and (max-width: 640px) {
@@ -453,6 +465,111 @@ input[type="submit"] {
     }
   
 }
+
+
+/* -----------------------------------------480px styling start here--------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+    .portfolioImg {
+        width: 550px;
+        height: 400px;
+    }
+
+    .textAreaBackground {
+        position: absolute;
+        left: 20px;
+        width: 550px;
+    }
+
+    input[type="text"] {
+        width: 57%;
+    }
+
+    input[type="email"] {
+        width: 57%;
+    }
+
+    textarea {
+        width: 57%;
+        height: 200px;
+
+    }
+
+
+   
+  
+
+    .Hangman {
+        width: 550px;
+        height: 60px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-size: 26px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 490px;
+        left: 20px;
+    }
+    
+    
+    .RPGGame {
+        width: 550px;
+        height: 60px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-size: 26px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 970px;
+        left: 20px;
+    }
+    
+    .TriviaGame {
+        width: 550px;
+        height: 60px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-size: 26px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 1450px;
+        left: 20px;
+    }
+    
+    
+    .RutInfoWidg {
+        width: 550px;
+        height: 60px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-size: 26px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 1925px;
+        left: 20px;
+    }
+    
+    .RockPaperScissors {
+        width: 550px;
+        height: 60px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-size: 26px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 2410px;
+        left: 20px;
+    }
+
+
+}
+
 
 
 
