@@ -152,7 +152,7 @@
       .active {
         position: relative;
         left: -650px;
-        width: 100%;
+        width: 1024px;
         text-align: center;
 
       }
@@ -161,7 +161,8 @@
       
       .navContainer {
         position: relative;
-        right: 982px;
+        right: 1015px;
+        width: 1024px;
       }
 
      
@@ -177,7 +178,7 @@
       .active {
         position: relative;
         left: -650px;
-        width: 100%;
+        width: 1024px;
         text-align: center;
 
       }
