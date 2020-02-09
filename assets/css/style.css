@@ -134,26 +134,26 @@ textarea {
 
 @media screen and (max-width: 980px) {
 
-.textAreaBackground {
-    position: absolute;
-    left: 75px;
-    width: 480px;
-}
+    .textAreaBackground {
+       position: absolute;
+       left: 75px;
+       width: 480px;
+    }
 
 
-input[type="text"] {
-    width: 50%;
-}
+    input[type="text"] {
+        width: 50%;
+    }
 
-input[type="email"] {
-    width: 50%;
-}
+    input[type="email"] {
+        width: 50%;
+    }
 
-textarea {
-    width: 50%;
-    height: 200px;
+    textarea {
+        width: 50%;
+        height: 200px;
 
-}
+    }
 
 
 }
@@ -161,7 +161,12 @@ textarea {
 
 @media screen and (max-width: 768px) {
 
-
+    .textAreaBackground {
+        position: absolute;
+        left: 25px;
+        width: 650px;
+    }
+  
     
 }
 

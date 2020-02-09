@@ -108,6 +108,8 @@
     padding: 0;
      height: 40px;
   }
+
+  
   
 
   @media screen and (max-width: 980px) {
@@ -131,6 +133,20 @@
     
     
     @media screen and (max-width: 768px) {
+
+      .active {
+        position: relative;
+        left: -432px;
+
+      }
+
+
+      .navContainer {
+        position: relative;
+        right: 680px;
+      }
+
+      
     
     
         
