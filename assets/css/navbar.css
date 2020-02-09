@@ -112,11 +112,17 @@
 
   @media screen and (max-width: 980px) {
 
-    .active {
-      position: relative;
-      left: -382px;
+      .active {
+        position: relative;
+        left: -382px;
 
-    }
+      }
+
+
+      .navContainer {
+        position: relative;
+        right: 500px;
+      }
     
     
     }
