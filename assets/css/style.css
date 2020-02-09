@@ -114,4 +114,31 @@ img {
 
 
 
+@media screen and (max-width: 980px) {
+
+.textAreaBackground {
+    position: absolute;
+    left: 75px;
+    width: 480px;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    
+}
+
+
+@media screen and (max-width: 640px) {
+
+
+    
+}
+
+
+
 
