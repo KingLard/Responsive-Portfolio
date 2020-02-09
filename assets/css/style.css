@@ -182,6 +182,76 @@ input[type="submit"] {
 
     }
 
+    .portfolioImg {
+        width: 23%;
+        height: 160px;
+    }
+
+
+    .Hangman {
+        width: 221px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 250px;
+        left: 20px;
+    }
+    
+    
+    .RPGGame {
+        width: 221px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 250px;
+        left: 276px;
+    }
+    
+    .TriviaGame {
+        width: 221px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 470px;
+        left: 276px;
+    }
+    
+    
+    .RutInfoWidg {
+        width: 221px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 470px;
+        left: 20px;
+    }
+    
+    .RockPaperScissors {
+        width: 221px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 692px;
+        left: 20px;
+    }
+
+
+
 
 }
 
