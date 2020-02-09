@@ -109,3 +109,28 @@
      height: 40px;
   }
   
+
+  @media screen and (max-width: 980px) {
+
+    .active {
+      position: relative;
+      left: -382px;
+
+    }
+    
+    
+    }
+    
+    
+    @media screen and (max-width: 768px) {
+    
+    
+        
+    }
+    
+    
+    @media screen and (max-width: 640px) {
+    
+    
+        
+    }
