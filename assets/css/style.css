@@ -39,7 +39,7 @@ label {
     display: block;
 }
 
-img {
+#profilePhoto {
     padding-right: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -51,7 +51,7 @@ img {
 }
 
 .Hangman {
-    width: 200px;
+    width: 288px;
     height: 40px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -59,12 +59,12 @@ img {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     top: 300px;
-    left: 23px;
+    left: 20px;
 }
 
 
 .RPGGame {
-    width: 200px;
+    width: 288px;
     height: 40px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -72,44 +72,44 @@ img {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     top: 300px;
-    left: 247px;
+    left: 343px;
 }
 
 .TriviaGame {
-    width: 200px;
+    width: 288px;
     height: 40px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    top: 525px;
-    left: 247px;
+    top: 585px;
+    left: 343px;
 }
 
 
 .RutInfoWidg {
-    width: 200px;
+    width: 288px;
     height: 40px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    top: 525px;
-    left: 23px;
+    top: 585px;
+    left: 20px;
 }
 
 .RockPaperScissors {
-    width: 200px;
+    width: 288px;
     height: 40px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    top: 750px;
-    left: 23px;
+    top: 875px;
+    left: 20px;
 }
 
 .formContainer {
@@ -143,8 +143,19 @@ input[type="submit"] {
     width: 100px;
 }
 
+.portfolioImages {
+    width: 960px;
+}
+
+.portfolioImg {
+    width: 30%;
+    height: 225px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
 
 
+/* ---------------------------------------------- start media screen stylesheets ---------------------------------------------------------- */
 
 
 
@@ -292,6 +303,72 @@ input[type="submit"] {
         width: 57%;
         height: 200px;
 
+    }
+
+
+   
+  
+
+    .Hangman {
+        width: 300px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 300px;
+        left: 23px;
+    }
+    
+    
+    .RPGGame {
+        width: 300px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 300px;
+        left: 347px;
+    }
+    
+    .TriviaGame {
+        width: 300px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 525px;
+        left: 347px;
+    }
+    
+    
+    .RutInfoWidg {
+        width: 300px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 525px;
+        left: 23px;
+    }
+    
+    .RockPaperScissors {
+        width: 300px;
+        height: 40px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 750px;
+        left: 23px;
     }
   
 }
