@@ -258,8 +258,12 @@ textarea {
 
 @media screen and (max-width: 640px) {
 
-
-    
+    .textAreaBackground {
+        position: absolute;
+        left: 20px;
+        width: 550px;
+    }
+  
 }
 
 

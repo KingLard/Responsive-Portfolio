@@ -155,6 +155,27 @@
     
     @media screen and (max-width: 640px) {
     
-    
+      .active {
+        position: relative;
+        left: -650px;
+        width: 100%;
+        text-align: center;
+
+      }
         
+
+      
+      .navContainer {
+        position: relative;
+        right: 982px;
+      }
+
+      #profilePhoto {
+        width: 100%;
+        height: 420px;
+        margin-bottom: 20px;
+      }
+
+
+      
     }
