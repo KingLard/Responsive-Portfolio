@@ -119,10 +119,12 @@ img {
 
 input[type="text"] {
     width: 100%;
+    padding: 5px; 
 }
 
 input[type="email"] {
     width: 100%;
+    padding: 5px;
 }
 
 textarea {
@@ -130,6 +132,20 @@ textarea {
     height: 200px;
 
 }
+
+
+input[type="submit"] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0;
+    width: 100px;
+}
+
+
+
+
 
 
 @media screen and (max-width: 980px) {
@@ -262,6 +278,20 @@ textarea {
         position: absolute;
         left: 20px;
         width: 550px;
+    }
+
+    input[type="text"] {
+        width: 57%;
+    }
+
+    input[type="email"] {
+        width: 57%;
+    }
+
+    textarea {
+        width: 57%;
+        height: 200px;
+
     }
   
 }
