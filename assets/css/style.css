@@ -177,15 +177,15 @@ input[type="submit"] {
 
 
     input[type="text"] {
-        width: 50%;
+        width: 97%;
     }
 
     input[type="email"] {
-        width: 50%;
+        width: 97%;
     }
 
     textarea {
-        width: 50%;
+        width: 99%;
         height: 200px;
 
     }
@@ -277,15 +277,15 @@ input[type="submit"] {
   
 
     input[type="text"] {
-        width: 67%;
+        width: 98%;
     }
 
     input[type="email"] {
-        width: 67%;
+        width: 98%;
     }
 
     textarea {
-        width: 67%;
+        width: 99%;
         height: 200px;
 
     }
@@ -377,15 +377,15 @@ input[type="submit"] {
     }
 
     input[type="text"] {
-        width: 57%;
+        width: 98%;
     }
 
     input[type="email"] {
-        width: 57%;
+        width: 98%;
     }
 
     textarea {
-        width: 57%;
+        width: 99%;
         height: 200px;
 
     }
@@ -490,19 +490,19 @@ input[type="submit"] {
     .textAreaBackground {
         position: absolute;
         left: 20px;
-        width: 550px;
+        width: 90%;
     }
 
     input[type="text"] {
-        width: 57%;
+        width: 97%;
     }
 
     input[type="email"] {
-        width: 57%;
+        width: 97%;
     }
 
     textarea {
-        width: 57%;
+        width: 99%;
         height: 200px;
 
     }
