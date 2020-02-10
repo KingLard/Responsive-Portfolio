@@ -26,10 +26,7 @@ body {
     
 }
 
-#profilePhoto {
-    width: 100%;
-    height: 420px;
-    margin-bottom: 20px;
+
   }
 
 form {
@@ -393,6 +390,12 @@ input[type="submit"] {
 
     }
 
+    #profilePhoto {
+        width: 100%;
+        height: 420px;
+        margin-bottom: 20px;
+
+    }
 
    
   
@@ -470,6 +473,14 @@ input[type="submit"] {
 /* -----------------------------------------480px styling start here--------------------------------*/
 
 @media screen and (max-width: 480px) {
+
+    #profilePhoto {
+        width: 100%;
+        height: 420px;
+        margin-bottom: 20px;
+
+    }
+
 
     .portfolioImg {
         width: 550px;
